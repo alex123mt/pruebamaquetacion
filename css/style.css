@@ -1,0 +1,232 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#todo{
+    border: rgba(255, 0, 0, 0.675) 6px solid;
+    background-color: black;
+    height: 850px;
+    width: 1000px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    color: rgb(0, 128, 0);
+    height: 90px;
+    width:987px;
+    border: rgba(0, 0, 255, 0.295) 5px solid;
+    margin: 2px 2px 2px 2px;
+}
+
+.box{
+    display: flex;
+    border:rgba(0, 128, 0, 0.24) 5px solid;
+    width: 200px;
+    height: 64px;
+    margin: 1% 1% 1% 1%;
+    text-decoration: none;
+    color:rgb(255, 115, 0);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabeza{
+    display: flex;
+    flex-direction: row;
+    border: rgba(0, 0, 255, 0.295) 5px solid;
+    width: 987px;
+    height: 340px;
+    margin: 2px 2px 2px 2px;
+}
+
+#banner{
+    border:rgba(0, 128, 0, 0.24) 5px solid;
+    width: 750px;
+    height: 320px;
+    margin: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+#logo{
+    border:rgba(0, 128, 0, 0.24) 5px solid;
+    width: 200px;
+    height: 70px;
+    margin: 5px 5px 4px 5px;
+    text-align: center;
+
+}
+
+#login{
+    border:rgba(0, 128, 0, 0.24) 5px solid;
+    width: 200px;
+    height: 100px;
+    margin: 5px 5px 4px 5px;
+    color:rgb(255, 115, 0);
+    text-align: center;
+    font-size: 12px;
+
+}
+
+#form{
+    border:rgba(0, 128, 0, 0.24) 5px solid;
+    width: 200px;
+    height: 122px;
+    margin: 5px 5px 4px 5px;
+    color:rgb(255, 115, 0);
+    text-align: center;
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    border: rgba(0, 0, 255, 0.295) 5px solid;
+    width: 987px;
+    height: 310px;
+    margin: 2px 2px 2px 2px;}
+
+#div1{
+    
+    border:rgba(0, 128, 0, 0.24) 5px solid;
+    width: 150px;
+    height: 290px;
+    margin: 5px 5px 5px 5px;
+    color:rgb(255, 115, 0);
+    text-align: center;
+
+}
+.listadiv1{
+    text-align: left;
+    list-style-type: none;
+    padding-left: 10px;
+    color: white;
+}
+
+#div2 {
+    border: rgba(0, 128, 0, 0.24) 5px solid;
+    width: 560px;
+    height: 290px;
+    margin: 5px;
+    color: rgb(255, 115, 0);
+    text-align: center;
+  }
+.modelos1 {
+    display: flex;
+    color: rgba(0, 128, 0, 0.348);
+    height: 120px;
+    width: 168px;
+    margin: 2px; 
+  }
+  
+.listamodelos {
+    width: 50px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1% 35% 0% 38%;
+    display: flex; /* Cambiado a flex para centrar */
+    justify-content: center; /* Alinea horizontalmente */
+    align-items: center; /* Alinea verticalmente */
+    flex-wrap: wrap; /*coloca lo que no cabe en otra linea*/
+    margin: 4px;
+    
+    
+  }
+.listamodelos2 {
+    width: 50px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0% 35% 1% 38%;
+    display: flex; /* Cambiado a flex para centrar */
+    justify-content: center; /* Alinea horizontalmente */
+    align-items: center; /* Alinea verticalmente */
+    flex-wrap: wrap;
+    margin: 4px;
+
+  }
+  
+.imgmodels{
+    margin: 0% auto;
+}
+#div3{
+    border:rgba(0, 128, 0, 0.24) 5px solid;
+    width: 220px;
+    height: 290px;
+    margin: 5px 5px 5px 5px;
+    color:rgb(255, 115, 0);
+    text-align: center;
+}
+
+.listadiv3{
+    text-align: left;
+    list-style-type: none;
+    padding-left: 20px;
+    color: white;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    border: rgba(0, 0, 255, 0.295) 5px solid;
+    width: 987px;
+    height: 64px;
+    margin: 2px 2px 0px 2px;    
+}
+.divfooter{
+    display: flex;
+    flex-direction: row;
+    border: rgba(0, 128, 0, 0.24) 5px solid;
+    width: 980px;
+    height: 45px;
+    margin: 5px 5px 5px 5px; 
+    color: white;
+    justify-content: space-around; 
+}
+
+.divf1{
+    width: 340px;
+    height: 35px;
+    margin: 5px 3px 5px 3px;
+    text-align: center;
+    font-size: 11px;
+}
+.divf2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 35px;
+    margin: 5px 3px 5px 3px;
+    text-align: center;
+    font-size: 11px;
+}
+.divf3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 35px;
+    margin: 5px 3px 5px 3px;
+    text-align: center;
+    font-size: 12px;
+    
+}
+a{  
+    color: rgb(255, 115, 0);
+    text-decoration: none;
+}
+#logoktm{
+    height: 70px;
+    width: 200px;
+}
+
+#imgktm1290{
+    height: 320px;
+    width: 750px;
+}
